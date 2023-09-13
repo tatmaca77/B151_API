@@ -48,5 +48,12 @@ public class Get02 {
                 .header("Server", "Cowboy");
 
     }
-        // Hamcrest Matchers
+        /**         Hamcrest Matchers
+
+                .body(containsString("Not Found"))
+                .body(not(containsString("TechProEd")))
+           Bunlar bir Hamcrest Matchers methodlaridir. ve her zaman CoreMatchers'dan import edilmelidir. !!!!!!
+
+         */
+
 }
